@@ -28,7 +28,7 @@
     transform: rotate(-45deg);
 }
 #timer {
-    top: 50%;
+    top: 0;
     right: 50%;
     width: 60px;
     height: 60px;
