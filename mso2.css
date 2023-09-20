@@ -265,3 +265,7 @@ table {
 u {
     text-decoration: none;
 }
+.kila {
+    display: inline-block;
+    margin-left: 3px;
+}
