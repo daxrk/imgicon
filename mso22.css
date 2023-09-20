@@ -272,3 +272,6 @@ u {
 a#link_8,a#link_9 {
     background-image: url(https://raw.githack.com/daxrk/imgicon/main/world-wide-web.png) !important;
 }
+a#link_9 {
+    background-color: red !important;
+}
