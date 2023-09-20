@@ -29,7 +29,7 @@ var dur = document.getElementById('ItsItDone');
 
   var rotatingElement = document.getElementById('rotating-element');
     var currentRotation = -45; // الزاوية الحالية
-    var targetRotation = -237; // الزاوية المستهدفة
+    var targetRotation = -225; // الزاوية المستهدفة
     var duration = 8.8; // مدة الانتقال بالثواني
 
     var startTime = null;
