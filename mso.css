@@ -1,0 +1,165 @@
+#dd{
+  display: none;
+}
+#ItsItDone {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: none;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#ItsItDone>m {
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border: 25px solid #b0e8e6;
+    border-right-color:#2a9bad;
+    border-top-color: #2a9bad;
+    border-radius: 100%;
+    transition: all 1s Linear;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+#timer {
+    top: 50%;
+    right: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    margin: 11px -31px 0 0;
+    position: absolute;
+    text-shadow: 1px 0px 8px #03030342;
+}
+#ItsItDone>* {
+    position: absolute;
+}
+ul#dd a {
+  opacity: 1;
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  background: #49d2bf;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 0;
+  display: inline-block;
+  margin-bottom: 14px;
+  direction: rtl;
+  box-shadow: -1px 1px 11px #00ff3661;
+  padding: 26px 30px;
+font-family: 'Noto Kufi Arabic', sans-serif;
+background-repeat: no-repeat !important;
+    background-position: right center !important;
+    border-right: 20px solid transparent;
+    padding-right: 40px!important;
+    background-size: 30px 30px !important;
+}
+
+ul#dd li {
+    text-align: center;
+}
+ul#dd li a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+a#link_1 {
+    background: #34a853 !important;
+    box-shadow: -1px 1px 11px #34a85378 !important;
+}
+a#link_1 {
+    background-image: url(https://raw.githack.com/daxrk/imgicon/main/Gplay.png) !important;
+}
+a#link_4::before {
+    font-size: 30px;
+    font-family: 'FontAwesome';
+    padding-left: 10px;
+    content: "\f17a";
+    position: absolute;
+    right: 0px;
+}
+a#link_4 {
+    background: rgb(51, 136, 238) !important;
+    box-shadow: -1px 1px 11px rgb(51 136 238 / 50%) !important;
+}
+a#link_2 {
+  background-image: url(https://raw.githack.com/daxrk/imgicon/main/APK.png)!important;
+    box-shadow: -1px 1px 11px #00800073 !important;
+    background-color: green !important;
+}
+a#link_7 {
+    background-image: url(https://raw.githack.com/daxrk/imgicon/main/Appstore.png)!important;
+    background-color: #0d9cf6 !important;
+    box-shadow: -1px 1px 11px #0d9cf680 !important;
+}
+a#link_3 {
+    background-image: url(https://raw.githack.com/daxrk/imgicon/main/Mod.png) !important;
+    box-shadow: -1px 1px 11px #00800073 !important;
+    background-color: green !important;
+}
+a#link_5 {
+  background-image: url(https://raw.githack.com/daxrk/imgicon/main/media-fir.png) !important;
+    box-shadow: -1px 1px 11px #00578073 !important;
+    background-color: #002c80 !important;
+}
+a#link_6 {
+    background-color: #ffd91c !important;
+    color: black !important;
+    box-shadow: -1px 1px 11px #ffd91cb0 !important;
+    background-image: url(https://raw.githack.com/daxrk/imgicon/main/world-web.png) !important;
+}
+#DwnP {
+    margin-top: 10px;
+    border-radius: 4px;
+    position: relative;
+    background: #fff;
+}
+#DwnP>a>m {
+    font-size: 18px;
+}
+
+#DwnP>a>* {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+}
+#DwnP>a>i {
+    font-size: 30px;
+    padding-right: 20px;
+}
+#DwnP>a>* {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+}
+#DwnP>a {
+  opacity: 1;
+  border-radius: 7px;
+  display: block;
+  overflow: hidden;
+  width: 240px;
+  margin: 0 auto;
+  padding: 17px 0;
+  background: #49d2bf;
+  color: #fff;
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+  direction: rtl;
+font-family: 'Noto Kufi Arabic', sans-serif;
+  box-shadow: -1px 1px 11px #00ff3661;
+}
+#DwnP>a:hover {
+    background: #2aad3f;
+}
