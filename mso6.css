@@ -269,3 +269,6 @@ u {
     display: inline-block;
     margin-left: 3px;
 }
+a#link_8,a#link_9 {
+    background-image: url(https://raw.githack.com/daxrk/imgicon/main/world-wide-web.png) !important;
+}
