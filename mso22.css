@@ -275,3 +275,7 @@ a#link_8,a#link_9 {
 a#link_9 {
     background-color: red !important;
 }
+@media (max-width: 511px){
+    .InfoBox>* {
+    width: 50%;
+}
