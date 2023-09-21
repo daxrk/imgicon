@@ -183,6 +183,7 @@ font-family: 'Noto Kufi Arabic', sans-serif;
     width: 25%;
     padding: 8px;
     font-family: 'Noto Kufi Arabic', sans-serif;
+    background: transparent !important;
 }
 .InfoBox>*>* {
     font-size: 14px;
