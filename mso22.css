@@ -158,7 +158,8 @@ a#link_6 {
   line-height: 0;
   direction: rtl;
 font-family: 'Noto Kufi Arabic', sans-serif;
-  box-shadow: -1px 1px 11px #00ff3661;
+  box-shadow: -1px 1px 11px #00ffcc61;
+  
 }
 #DwnP>a:hover {
     background: #2aad3f;
