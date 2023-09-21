@@ -165,7 +165,7 @@ font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 
-table {
+.download_page_info table {
     display: block;
     width: 100%;
 }
