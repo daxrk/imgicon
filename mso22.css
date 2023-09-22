@@ -91,6 +91,9 @@ a#link_4 {
     background: rgb(51, 136, 238) !important;
     box-shadow: -1px 1px 11px rgb(51 136 238 / 50%) !important;
 }
+tbody.InfoBox tr:nth-child(3) td:nth-child(2) {
+    font-size: 10px;
+}
 a#link_2 {
   background-image: url(https://raw.githack.com/daxrk/imgicon/main/APK.png)!important;
     box-shadow: -1px 1px 11px #00800073 !important;
