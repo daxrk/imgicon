@@ -1,0 +1,77 @@
+.app_view_pad .description,.app_view_pad .rate{ margin-top:1.5rem } .app_view_pad .spec{ color:#343a40; margin-bottom:-.125rem } .app_view_pad .spec>li{ padding-top:.195rem; padding-bottom:.195rem } @media(min-width:768px){ .app_view_wrp{ background-color:#fff; box-shadow:0 .25rem 1.5rem 1px rgba(0,0,0,.03); border-radius:.125rem; padding:2rem; margin-bottom:1.5rem } .app_view_pad{ position:relative } } @media(max-width:767px){ .app_view_wrp{ position:relative; padding-bottom:11.25rem } .app_view_pad{ margin-bottom:2rem } .app_view_pad::after{ content:""; display:block; clear:both } .app_view_pad>.rate{ position:absolute; bottom:0; height:11.25rem; width:100% } } @media(min-width:500px) and (max-width:767px){ .app_view_wrp{ padding-bottom:6.5rem } .app_view_pad>.rate{ height:6.5rem } } .spec{ list-style:none; padding:0 } .spec>li,.spec>tbody>tr{ display:inline-block; padding-right:1.75rem; margin-left:1.5rem } .spec>li::after,.spec>tbody>tr::after{ clear:both; display:block; content:"" } .spec>li a{ color:inherit; text-decoration:none!important } .spec>li:last-child,.spec>tbody>tr:last-child{ margin-left:0 } .spec>li .spec_icon>svg{ margin-top:-.125rem; margin-right:-1.75rem; float:right; width:24px; height:24px } .spec>li .asu{ display:none } .spec>li .asu>svg{ margin-right:.25rem; margin-top:-.02rem; width:24px; height:24px; float:left!important } .app_view-first .spec_addon>.btn{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis } .app_view_pad .description img:not(.image-x img){ width:100%; height:100%; border-radius:1rem } .description p,.text p,.text ul li{ text-align:justify; line-height:2rem } .description h2,.description h3,.description h4{ margin:.5rem 0; line-height:2; text-align:right; font-size:1.15rem; font-weight:700 } .text h2{ margin:1rem 0; line-height:2; text-align:right } .description ul li,.description ol li{ line-height:2rem; text-align:justify } .app_view_pad .description .spoiler-btn{ margin-top:.5rem; font-size:.75rem; color:#68cb5b } .app_view_pad .description .spoiler-btn{ margin-right:-.75rem } .spoiler{ /* max-height:9.5rem; */ overflow:hidden; line-height:2rem; text-align:justify } .spoiler.open{ max-height:none; overflow:visible } .spoiler-btn>svg{ vertical-align:middle; margin:-.125rem 0 0 .5rem } .spoiler-btn-o{ display:inline } .spoiler-btn-h{ display:none } .spoiler.open~.spoiler-btn .spoiler-btn-h{ display:inline } .spoiler.open~.spoiler-btn .spoiler-btn-o{ display:none } .spoiler.open~.spoiler-btn>svg{ transform:rotate(180deg) } @media(max-width:767px){ .app_view-first{ margin-bottom:1rem; padding-right:11.5rem } .app_view-first::after{ content:""; display:block; clear:both } .app_view-first>.img{ float:right; margin-right:-11.5rem } .app_view-first>.cont{ display:table; width:100% } .app_view-first>.inline{ display:inline-block!important } .app_view-first .spec>li{ margin-right:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap } .spec>li{ display:block } .spec_cat{ display:none!important } .app_view_pad>.title{ margin-bottom:1.5rem } .app_view_pad .rate{ background-color:#edefec; padding:1.5rem } .app_view_pad .rate .unit-rating{ width:17.5rem; height:3.5rem } .app_view_pad .rate .rating{ margin-right:-.375rem } .app_view_pad .rate .unit-rating li a:hover,.app_view_pad .rate .unit-rating li.current-rating{ background-color:#edefec } .version_upload{ display:block!important; font-size:.95rem; border-top:1px solid #edeff1; color:#343a40; padding-top:1rem; margin-top:2rem } .version_upload svg{ width:1.25rem!important; height:1.25rem!important; margin-right:.25rem } } @media(min-width:500px){ .app_view-first .img{ width:11.5rem; height:11.5rem } } @media(min-width:500px) and (max-width:767px){ .app_view-first>.cont{ padding-right:2rem } .app_view_pad .rate::after{ clear:both; display:block; content:"" } .app_view_pad .rate .rating{ float:right } .app_view_pad .rate .rate_num{ float:left; margin-top:1rem } .app_view-first .spec>li{ margin-top:.5rem } .app_view-first .spec{ height:8.125rem } } @media(min-width:768px){ .app_view_pad{ padding-right:13rem } .app_view-first .img{ right:0; top:0; position:absolute; width:10rem; height:10rem } .app_view_pad .spec{    margin-top: 20px; font-weight:700 } .app_view_pad .developer{ order:0; margin-top:.5rem } .app_view_pad .rate{ order:1; margin-top:1.5rem; display:flex; align-items:center } .app_view_pad .rate .rating{ margin-left:-3px } .app_view-first{ order:2 } .app_view_pad .description{ order:3 } .app_view_pad .share{ order:4 } .app_view_pad .rate .rate_num{ font-size: 14px;
+    margin-right: 9px;
+    margin-top: -10px; } } @media(min-width:768px) and (max-width:1024px){ .app_view-first .spec_addon{ padding:.5rem; border-radius:3rem; margin-top:1.5rem; background-color:rgba(220,225,229,.3) } .app_view-first .spec_addon::after{ clear:both; display:block; content:"" } .app_view-first .spec_addon>.btn{ display:inline-block; vertical-align:middle; font-size:.875rem; margin-left:1rem } .app_view-first .spec_addon>p{ display:inline!important; margin-bottom:0 } } @media(min-width:992px){ .app_view_pad{ display:flex; flex-direction:column } .spec>li a:hover{ color:#68cb5b } .i__more_c1,.i__more_c2,.i__more_c3{ transition:transform .15s ease-in-out } .spoiler-btn:hover .i__more_c1,.spoiler-btn:hover .i__more_c3{ transform:translateY(-.05rem) } .spoiler-btn:hover .i__more_c2{ transform:translateY(.15rem) } } @media(min-width:1025px){.app_view-first .spec_addon{ position:absolute; left:0; top:0; width:100%; max-width:13rem; text-align:center; color:#343a40 } .app_view-first .spec_addon>.btn{ width:100%; margin-bottom:1.5rem; font-size:.875rem } .app_view-first .spec_addon>p{ max-width:10rem; margin:0 auto } .app_view-first .spec_addon>p>i{ display:block; margin-bottom:.5rem } } @media(min-width:1200px){ .app_view_pad{padding-right:13.5rem;} .app_view-first .img{ width:11.5rem; height:11.5rem } } @media(max-width:499px){ .app_view-first .spec_addon>.btn{ white-space:nowrap } .app_view-first{ padding-right:8.5rem } .app_view-first .img{ width:8.5rem; height:8.5rem; margin-right:-8.5rem } .app_view-first>.cont{ padding-right:1.5rem } .app_view-first .spec_addon .btn.btn-green{ font-size:.875rem; line-height:1.5rem; padding:.5rem 1rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:100% } .app_view-first .spec{ height:6.125rem } .app_view_pad{ padding:0 1.5rem } .app_view_pad .rate{ left:0; right:0 } .app_view_pad .rate .unit-rating{ margin:0 auto } .app_view_pad .rate .rate_num{ text-align:center; line-height:1; margin-top:1rem } } @media(max-width:339px){ .app_view_pad{ padding:0 .75rem } } .app_screens{ position:relative } .app_screens .sep_line{ margin-bottom:2rem } .app_screens_in{ overflow:hidden; overflow-x:auto; -webkit-overflow-scrolling:touch }
+@media (min-width: 1200px){.app_view-first .img {
+    width: 11.5rem;
+    height: 11.5rem;
+}}
+
+@media (min-width: 768px){.app_view-first .img {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+}}
+@media (min-width: 500px){.app_view-first .img {
+    width: 11.5rem;
+    height: 11.5rem;
+}}
+
+
+.app_view-first .img {
+    margin-bottom: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 1.5rem 2rem -1rem #00000029;
+    background-color: #fff;
+}
+figure {
+    margin: 0 0 1rem;
+}
+@media (min-width: 460px) and (max-width: 1279px){.xxlgf {
+    font-size: 1.65rem;
+}}
+
+@media (max-width: 767px){.app_view_pad>.title {
+    margin-bottom: 1.5rem;
+}}
+
+.xxlgf {
+  font-size: 23px;
+      margin-bottom: 0;
+}
+.xxlgf {
+    font-weight: 700;
+}
+.title {
+    line-height: 1.3;
+    word-wrap: break-word;
+}
+i.fa.fa-database,i.fa.fa-android, i.fa.fa-files-o{
+    color: #b7b7b7;
+}
+i.fa.fa-android {
+    font-size: 19px;
+}
+@media (min-width: 500px) and (max-width: 767px){.app_view-first>.cont {
+    padding-right: 2rem;
+}}
+
+
+@media (max-width: 767px){.app_view-first>.inline {
+    display: inline-block!important;
+}}
+
+@media (max-width: 767px){.app_view-first>.cont {
+    display: table;
+    width: 100%;
+}}
+.app_view_pad {
+    position: relative;
+    display: block;
+    margin-bottom: 69px;
+}
+@media (max-width: 768px){
+.app_view_pad .spec{margin-top: 0.5rem;}
+}
